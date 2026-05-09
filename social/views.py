@@ -267,4 +267,4 @@ def contact(request, username, rel):
     else:
         users = user.get_followers()
     return render(request, 'user/user_list.html', {'users': users})
-
+     
